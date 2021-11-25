@@ -1,0 +1,194 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MediatR/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "EntrevistaApp.Application.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "EntrevistaApp.Domain": "1.0.0",
+          "MediatR": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EntrevistaApp.Application.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntrevistaApp.Application.Abstraction.dll": {}
+        }
+      },
+      "EntrevistaApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/EntrevistaApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntrevistaApp.Domain.dll": {}
+        }
+      },
+      "EntrevistaApp.Exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/EntrevistaApp.Exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntrevistaApp.Exceptions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MediatR/9.0.0": {
+      "sha512": "8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "type": "package",
+      "path": "mediatr/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.9.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.9": {
+      "sha512": "8PkcaPwiTPOhqshoY4+rQUbz86X6YpLDLUqXOezh7L2A3pgpBmeBBByYIffofBlvQxDdQ0zB2DkWjbZWyCxRWg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "EntrevistaApp.Application.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../EntrevistaApp.Application.Abstraction/EntrevistaApp.Application.Abstraction.csproj",
+      "msbuildProject": "../EntrevistaApp.Application.Abstraction/EntrevistaApp.Application.Abstraction.csproj"
+    },
+    "EntrevistaApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Domain/EntrevistaApp.Domain/EntrevistaApp.Domain.csproj",
+      "msbuildProject": "../../Domain/EntrevistaApp.Domain/EntrevistaApp.Domain.csproj"
+    },
+    "EntrevistaApp.Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../../CrossCutting/EntrevistaApp.Exceptions/EntrevistaApp.Exceptions.csproj",
+      "msbuildProject": "../../CrossCutting/EntrevistaApp.Exceptions/EntrevistaApp.Exceptions.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "EntrevistaApp.Application.Abstraction >= 1.0.0",
+      "EntrevistaApp.Domain >= 1.0.0",
+      "EntrevistaApp.Exceptions >= 1.0.0",
+      "MediatR >= 9.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 3.1.9"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application\\EntrevistaApp.Application.csproj",
+      "projectName": "EntrevistaApp.Application",
+      "projectPath": "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application\\EntrevistaApp.Application.csproj",
+      "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+      "outputPath": "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application.Abstraction\\EntrevistaApp.Application.Abstraction.csproj": {
+              "projectPath": "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application.Abstraction\\EntrevistaApp.Application.Abstraction.csproj"
+            },
+            "D:\\projetos\\EntrevistaApp\\CrossCutting\\EntrevistaApp.Exceptions\\EntrevistaApp.Exceptions.csproj": {
+              "projectPath": "D:\\projetos\\EntrevistaApp\\CrossCutting\\EntrevistaApp.Exceptions\\EntrevistaApp.Exceptions.csproj"
+            },
+            "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\EntrevistaApp.Domain.csproj": {
+              "projectPath": "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\EntrevistaApp.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[3.1.9, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,734 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Squadra\\sisrh\\API\\SISRH.API\\SISRH.API.csproj": {}
+  },
+  "projects": {
+    "D:\\Squadra\\sisrh\\API\\SISRH.API\\SISRH.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Squadra\\sisrh\\API\\SISRH.API\\SISRH.API.csproj",
+        "projectName": "SISRH.API",
+        "projectPath": "D:\\Squadra\\sisrh\\API\\SISRH.API\\SISRH.API.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\Squadra\\sisrh\\API\\SISRH.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Squadra\\sisrh\\Application\\SISRH.Application.Abstraction\\SISRH.Application.Abstraction.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\Application\\SISRH.Application.Abstraction\\SISRH.Application.Abstraction.csproj"
+              },
+              "D:\\Squadra\\sisrh\\CrossCutting\\SISRH.IoC\\SISRH.IoC.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\CrossCutting\\SISRH.IoC\\SISRH.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Squadra\\sisrh\\Application\\SISRH.Application.Abstraction\\SISRH.Application.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Squadra\\sisrh\\Application\\SISRH.Application.Abstraction\\SISRH.Application.Abstraction.csproj",
+        "projectName": "SISRH.Application.Abstraction",
+        "projectPath": "D:\\Squadra\\sisrh\\Application\\SISRH.Application.Abstraction\\SISRH.Application.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\Squadra\\sisrh\\Application\\SISRH.Application.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Squadra\\sisrh\\Domain\\SISRH.Domain\\SISRH.Domain.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\Domain\\SISRH.Domain\\SISRH.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Squadra\\sisrh\\Application\\SISRH.Application\\SISRH.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Squadra\\sisrh\\Application\\SISRH.Application\\SISRH.Application.csproj",
+        "projectName": "SISRH.Application",
+        "projectPath": "D:\\Squadra\\sisrh\\Application\\SISRH.Application\\SISRH.Application.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\Squadra\\sisrh\\Application\\SISRH.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Squadra\\sisrh\\Application\\SISRH.Application.Abstraction\\SISRH.Application.Abstraction.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\Application\\SISRH.Application.Abstraction\\SISRH.Application.Abstraction.csproj"
+              },
+              "D:\\Squadra\\sisrh\\CrossCutting\\SISRH.Exceptions\\SISRH.Exceptions.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\CrossCutting\\SISRH.Exceptions\\SISRH.Exceptions.csproj"
+              },
+              "D:\\Squadra\\sisrh\\Domain\\SISRH.Domain\\SISRH.Domain.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\Domain\\SISRH.Domain\\SISRH.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Squadra\\sisrh\\CrossCutting\\SISRH.Exceptions\\SISRH.Exceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Squadra\\sisrh\\CrossCutting\\SISRH.Exceptions\\SISRH.Exceptions.csproj",
+        "projectName": "SISRH.Exceptions",
+        "projectPath": "D:\\Squadra\\sisrh\\CrossCutting\\SISRH.Exceptions\\SISRH.Exceptions.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\Squadra\\sisrh\\CrossCutting\\SISRH.Exceptions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Squadra\\sisrh\\CrossCutting\\SISRH.IoC\\SISRH.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Squadra\\sisrh\\CrossCutting\\SISRH.IoC\\SISRH.IoC.csproj",
+        "projectName": "SISRH.IoC",
+        "projectPath": "D:\\Squadra\\sisrh\\CrossCutting\\SISRH.IoC\\SISRH.IoC.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\Squadra\\sisrh\\CrossCutting\\SISRH.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Squadra\\sisrh\\Application\\SISRH.Application.Abstraction\\SISRH.Application.Abstraction.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\Application\\SISRH.Application.Abstraction\\SISRH.Application.Abstraction.csproj"
+              },
+              "D:\\Squadra\\sisrh\\Application\\SISRH.Application\\SISRH.Application.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\Application\\SISRH.Application\\SISRH.Application.csproj"
+              },
+              "D:\\Squadra\\sisrh\\CrossCutting\\SISRH.Exceptions\\SISRH.Exceptions.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\CrossCutting\\SISRH.Exceptions\\SISRH.Exceptions.csproj"
+              },
+              "D:\\Squadra\\sisrh\\Domain\\SISRH.Domain\\SISRH.Domain.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\Domain\\SISRH.Domain\\SISRH.Domain.csproj"
+              },
+              "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Autorizacao\\SISRH.Infrastructure.Autorizacao.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Autorizacao\\SISRH.Infrastructure.Autorizacao.csproj"
+              },
+              "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Jobs\\SISRH.Infrastructure.Jobs.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Jobs\\SISRH.Infrastructure.Jobs.csproj"
+              },
+              "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Repository\\SISRH.Infrastructure.Repository.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Repository\\SISRH.Infrastructure.Repository.csproj"
+              },
+              "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Templates\\SISRH.Infrastructure.Templates.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Templates\\SISRH.Infrastructure.Templates.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Squadra\\sisrh\\Domain\\SISRH.Domain\\SISRH.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Squadra\\sisrh\\Domain\\SISRH.Domain\\SISRH.Domain.csproj",
+        "projectName": "SISRH.Domain",
+        "projectPath": "D:\\Squadra\\sisrh\\Domain\\SISRH.Domain\\SISRH.Domain.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\Squadra\\sisrh\\Domain\\SISRH.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Autorizacao\\SISRH.Infrastructure.Autorizacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Autorizacao\\SISRH.Infrastructure.Autorizacao.csproj",
+        "projectName": "SISRH.Infrastructure.Autorizacao",
+        "projectPath": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Autorizacao\\SISRH.Infrastructure.Autorizacao.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Autorizacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Jobs\\SISRH.Infrastructure.Jobs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Jobs\\SISRH.Infrastructure.Jobs.csproj",
+        "projectName": "SISRH.Infrastructure.Jobs",
+        "projectPath": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Jobs\\SISRH.Infrastructure.Jobs.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Jobs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Squadra\\sisrh\\Domain\\SISRH.Domain\\SISRH.Domain.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\Domain\\SISRH.Domain\\SISRH.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Migrations\\SISRH.Infrastructure.Migrations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Migrations\\SISRH.Infrastructure.Migrations.csproj",
+        "projectName": "SISRH.Infrastructure.Migrations",
+        "projectPath": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Migrations\\SISRH.Infrastructure.Migrations.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Migrations\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Repository\\SISRH.Infrastructure.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Repository\\SISRH.Infrastructure.Repository.csproj",
+        "projectName": "SISRH.Infrastructure.Repository",
+        "projectPath": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Repository\\SISRH.Infrastructure.Repository.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Squadra\\sisrh\\Domain\\SISRH.Domain\\SISRH.Domain.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\Domain\\SISRH.Domain\\SISRH.Domain.csproj"
+              },
+              "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Migrations\\SISRH.Infrastructure.Migrations.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Migrations\\SISRH.Infrastructure.Migrations.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Templates\\SISRH.Infrastructure.Templates.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Templates\\SISRH.Infrastructure.Templates.csproj",
+        "projectName": "SISRH.Infrastructure.Templates",
+        "projectPath": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Templates\\SISRH.Infrastructure.Templates.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\Squadra\\sisrh\\Infrastructure\\SISRH.Infrastructure.Templates\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Squadra\\sisrh\\Domain\\SISRH.Domain\\SISRH.Domain.csproj": {
+                "projectPath": "D:\\Squadra\\sisrh\\Domain\\SISRH.Domain\\SISRH.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

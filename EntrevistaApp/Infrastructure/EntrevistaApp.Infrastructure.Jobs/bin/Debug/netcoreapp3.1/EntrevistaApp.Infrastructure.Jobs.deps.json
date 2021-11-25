@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EntrevistaApp.Infrastructure.Jobs/1.0.0": {
+        "dependencies": {
+          "EntrevistaApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "EntrevistaApp.Infrastructure.Jobs.dll": {}
+        }
+      },
+      "EntrevistaApp.Domain/1.0.0": {
+        "runtime": {
+          "EntrevistaApp.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EntrevistaApp.Infrastructure.Jobs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntrevistaApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

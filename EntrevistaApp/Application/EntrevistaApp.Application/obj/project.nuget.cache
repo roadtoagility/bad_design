@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OONRdwEteI2s4yKf2Z4I7rBzr2FHaRkxAW+hqx0ElZ2o1YV2dboXCAhZ5zfhOtjaiytxJ/5vnLmLb1kZDJcPXQ==",
+  "success": true,
+  "projectFilePath": "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application\\EntrevistaApp.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512"
+  ],
+  "logs": []
+}

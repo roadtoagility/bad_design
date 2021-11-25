@@ -1,0 +1,734 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\projetos\\EntrevistaApp\\API\\EntrevistaApp.API\\EntrevistaApp.API.csproj": {}
+  },
+  "projects": {
+    "D:\\projetos\\EntrevistaApp\\API\\EntrevistaApp.API\\EntrevistaApp.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\EntrevistaApp\\API\\EntrevistaApp.API\\EntrevistaApp.API.csproj",
+        "projectName": "EntrevistaApp.API",
+        "projectPath": "D:\\projetos\\EntrevistaApp\\API\\EntrevistaApp.API\\EntrevistaApp.API.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\EntrevistaApp\\API\\EntrevistaApp.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application.Abstraction\\EntrevistaApp.Application.Abstraction.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application.Abstraction\\EntrevistaApp.Application.Abstraction.csproj"
+              },
+              "D:\\projetos\\EntrevistaApp\\CrossCutting\\EntrevistaApp.IoC\\EntrevistaApp.IoC.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\CrossCutting\\EntrevistaApp.IoC\\EntrevistaApp.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application.Abstraction\\EntrevistaApp.Application.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application.Abstraction\\EntrevistaApp.Application.Abstraction.csproj",
+        "projectName": "EntrevistaApp.Application.Abstraction",
+        "projectPath": "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application.Abstraction\\EntrevistaApp.Application.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\EntrevistaApp.Domain.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\EntrevistaApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application\\EntrevistaApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application\\EntrevistaApp.Application.csproj",
+        "projectName": "EntrevistaApp.Application",
+        "projectPath": "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application\\EntrevistaApp.Application.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application.Abstraction\\EntrevistaApp.Application.Abstraction.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application.Abstraction\\EntrevistaApp.Application.Abstraction.csproj"
+              },
+              "D:\\projetos\\EntrevistaApp\\CrossCutting\\EntrevistaApp.Exceptions\\EntrevistaApp.Exceptions.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\CrossCutting\\EntrevistaApp.Exceptions\\EntrevistaApp.Exceptions.csproj"
+              },
+              "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\EntrevistaApp.Domain.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\EntrevistaApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\EntrevistaApp\\CrossCutting\\EntrevistaApp.Exceptions\\EntrevistaApp.Exceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\EntrevistaApp\\CrossCutting\\EntrevistaApp.Exceptions\\EntrevistaApp.Exceptions.csproj",
+        "projectName": "EntrevistaApp.Exceptions",
+        "projectPath": "D:\\projetos\\EntrevistaApp\\CrossCutting\\EntrevistaApp.Exceptions\\EntrevistaApp.Exceptions.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\EntrevistaApp\\CrossCutting\\EntrevistaApp.Exceptions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\EntrevistaApp\\CrossCutting\\EntrevistaApp.IoC\\EntrevistaApp.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\EntrevistaApp\\CrossCutting\\EntrevistaApp.IoC\\EntrevistaApp.IoC.csproj",
+        "projectName": "EntrevistaApp.IoC",
+        "projectPath": "D:\\projetos\\EntrevistaApp\\CrossCutting\\EntrevistaApp.IoC\\EntrevistaApp.IoC.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\EntrevistaApp\\CrossCutting\\EntrevistaApp.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application.Abstraction\\EntrevistaApp.Application.Abstraction.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application.Abstraction\\EntrevistaApp.Application.Abstraction.csproj"
+              },
+              "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application\\EntrevistaApp.Application.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\Application\\EntrevistaApp.Application\\EntrevistaApp.Application.csproj"
+              },
+              "D:\\projetos\\EntrevistaApp\\CrossCutting\\EntrevistaApp.Exceptions\\EntrevistaApp.Exceptions.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\CrossCutting\\EntrevistaApp.Exceptions\\EntrevistaApp.Exceptions.csproj"
+              },
+              "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\EntrevistaApp.Domain.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\EntrevistaApp.Domain.csproj"
+              },
+              "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Autorizacao\\EntrevistaApp.Infrastructure.Autorizacao.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Autorizacao\\EntrevistaApp.Infrastructure.Autorizacao.csproj"
+              },
+              "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Jobs\\EntrevistaApp.Infrastructure.Jobs.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Jobs\\EntrevistaApp.Infrastructure.Jobs.csproj"
+              },
+              "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Repository\\EntrevistaApp.Infrastructure.Repository.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Repository\\EntrevistaApp.Infrastructure.Repository.csproj"
+              },
+              "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Templates\\EntrevistaApp.Infrastructure.Templates.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Templates\\EntrevistaApp.Infrastructure.Templates.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\EntrevistaApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\EntrevistaApp.Domain.csproj",
+        "projectName": "EntrevistaApp.Domain",
+        "projectPath": "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\EntrevistaApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Autorizacao\\EntrevistaApp.Infrastructure.Autorizacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Autorizacao\\EntrevistaApp.Infrastructure.Autorizacao.csproj",
+        "projectName": "EntrevistaApp.Infrastructure.Autorizacao",
+        "projectPath": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Autorizacao\\EntrevistaApp.Infrastructure.Autorizacao.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Autorizacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Jobs\\EntrevistaApp.Infrastructure.Jobs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Jobs\\EntrevistaApp.Infrastructure.Jobs.csproj",
+        "projectName": "EntrevistaApp.Infrastructure.Jobs",
+        "projectPath": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Jobs\\EntrevistaApp.Infrastructure.Jobs.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Jobs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\EntrevistaApp.Domain.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\EntrevistaApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Migrations\\EntrevistaApp.Infrastructure.Migrations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Migrations\\EntrevistaApp.Infrastructure.Migrations.csproj",
+        "projectName": "EntrevistaApp.Infrastructure.Migrations",
+        "projectPath": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Migrations\\EntrevistaApp.Infrastructure.Migrations.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Migrations\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Repository\\EntrevistaApp.Infrastructure.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Repository\\EntrevistaApp.Infrastructure.Repository.csproj",
+        "projectName": "EntrevistaApp.Infrastructure.Repository",
+        "projectPath": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Repository\\EntrevistaApp.Infrastructure.Repository.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\EntrevistaApp.Domain.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\EntrevistaApp.Domain.csproj"
+              },
+              "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Migrations\\EntrevistaApp.Infrastructure.Migrations.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Migrations\\EntrevistaApp.Infrastructure.Migrations.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Templates\\EntrevistaApp.Infrastructure.Templates.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Templates\\EntrevistaApp.Infrastructure.Templates.csproj",
+        "projectName": "EntrevistaApp.Infrastructure.Templates",
+        "projectPath": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Templates\\EntrevistaApp.Infrastructure.Templates.csproj",
+        "packagesPath": "C:\\Users\\Douglas Ramalho\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\EntrevistaApp\\Infrastructure\\EntrevistaApp.Infrastructure.Templates\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas Ramalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\EntrevistaApp.Domain.csproj": {
+                "projectPath": "D:\\projetos\\EntrevistaApp\\Domain\\EntrevistaApp.Domain\\EntrevistaApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
